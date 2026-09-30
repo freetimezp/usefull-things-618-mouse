@@ -1,11 +1,27 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    list-style: none;
-    list-style-type: none;
 }
 
-a {
-    text-decoration: none;
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+span {
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: url(https://i.pinimg.com/736x/06/ee/1e/06ee1ee62bd7ca323b415de08dbf7665.jpg);
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
 }
